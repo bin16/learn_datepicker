@@ -1,0 +1,94 @@
+.calender {
+	width: 265px;
+	height: 240px;
+	background-color: #eeeeee;
+	margin: 50px 5px 0 5px;
+	box-sizing:border-box;
+	float: left;
+}
+.calender-header {
+	width: 100%;
+	height: 50px;
+	/*background-color: #cc99ee;*/
+	box-sizing: border-box;
+	padding: 10px 0px;
+}
+.calender-header > span {
+	display: block;
+	width: 245px;
+	height: 30px;
+	margin: 0px auto;
+	padding: 0px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+}
+.calender-header > span > i {
+	font-style: normal;
+	height: 30px;
+	width: 30px;
+	float: left;
+
+	cursor: pointer;
+}
+.calender-header > span > i:hover {
+	background-color: rgba(255,255,255,.5);
+}
+.calender-header > span > strong {
+	height: 30px;
+	width: 180px;
+	text-align: center;
+	float: left;
+}
+.calender ul {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	box-sizing:border-box;
+	padding: 10px;
+	background-color: #ffffff;
+}
+.calender-li {
+	list-style-type: none;
+	width: 35px;
+	height: 35px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-right: 1px solid #c9c9c9;
+	border-top: 1px solid #c9c9c9;
+	line-height: 35px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 12px;
+
+	cursor: pointer;
+}
+.calender-li:hover {
+	/*background-color: #cc99ee;*/
+	background-color: rgba(0,0,0,.5);
+	color: #ffffff;
+}
+
+.rside {
+	border-right-width: 0px;
+}
+.tside {
+	border-top-width: 0px;
+}
+.lside {
+	border-left-width: 0px;
+}
+.bside {
+	border-bottom-width: 0px;
+}
+.last {
+	clear: right;
+}
+.ignore {
+	color: #aaaaaa;
+}
+.focus {
+	color: #ffffff;
+	/*background-color: #cc99ee;*/
+}
