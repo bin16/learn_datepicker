@@ -1,5 +1,5 @@
 !function ($) {
-	this.set_date_picker = function(option) {
+	$.fn.set_date_picker = function(option) {
 		
 		option['color'] = 'color' in option?option['color']:"#66aadd";
 
