@@ -3,7 +3,7 @@
 		
 		option['color'] = 'color' in option?option['color']:"#66aadd";
 
-		$(".u-calender").each(function() {
+		$(this).each(function() {
 			var color = option.color;
 
 
